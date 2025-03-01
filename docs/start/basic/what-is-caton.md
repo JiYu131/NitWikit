@@ -41,7 +41,11 @@ Minecraft 服务器卡顿的底层逻辑是什么？
 
 ### TPS
 
-TPS(Ticks Per Second)(每秒 Tick 数) 正常应为 20 ，即服务器每秒钟进行 20 次更新，确保红石、生物 AI 等按照正常工作。
+`TPS`(Ticks Per Second)(每秒 Tick 数) 正常应为 20 ，即服务器每秒钟进行 20 次更新，确保红石、生物 AI 等按照正常工作。
+
+> 可以简单地理解为服务器的"帧率"
+> 
+> 服务端本身可以理解成一个游戏在运行，所以每秒更新的频率当然可以直接理解成FPS
 
 :::warning
 
@@ -62,25 +66,25 @@ MSPT(Milliseconds Per Tick)(就是每进行一次 Tick 所花费的毫秒数)
 
 ### 查看 TPS 和 MSPT
 
-1. 如果为 purpur fork 服务器可以输入 /tpsbar 查看 MSPT 和 TPS；
+1. 如果为 Purpur Fork 服务器可以输入 /tpsbar 查看 MSPT 和 TPS；
 
-2. 如果为 paper 服务器可输入 /mspt 查看 MSPT，输入 /tps 查看 TPS；
+2. 如果为 Paper 服务器可输入 /mspt 查看 MSPT，输入 /tps 查看 TPS；
 
 3. 安装 [TpsBar](https://hangar.papermc.io/jmp/TabTPS) ，显示更好看。
 
 ## 网络延迟
 
-在 Minecraft 中，网络延迟(通常表示为 Ping)是玩家连接到服务器时数据传输所花费的时间。
+在 Minecraft 中，网络延迟(通常表示为`Ping`)是玩家连接到服务器时数据传输所花费的时间。
 
-Ping 值的高低直接影响了玩家在游戏中的体验，特别是在需要快速反应和精确操作的场合。
+`Ping`值的高低直接影响了玩家在游戏中的体验，特别是在需要快速反应和精确操作的场合。
 
 ### 如何计算 Ping
 
 当玩家在 Minecraft 中尝试与服务器通信时，玩家的计算机会向服务器发送一个数据包，然后等待服务器的响应。
 
-从数据包发送出去到收到服务器的响应，所花费的时间就是 Ping 值。Ping 通常以 ms 为单位来表示。
+从数据包发送出去到收到服务器的响应，所花费的时间就是`Ping`值。`Ping`通常以`ms`(毫秒)为单位来表示。
 
-Ping 值的高低对游戏体验有着显著的影响。
+`Ping`值的高低对游戏体验有着显著的影响。
 
 :::tip
 
