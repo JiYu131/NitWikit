@@ -34,6 +34,7 @@ flowchart TD
     1.16.5+ --> 其他
     其他 --> Purpur
 ```
+---
 
 ## 高版本
 
@@ -54,9 +55,9 @@ import TabItem from '@theme/TabItem';
 - 性能 - 在高版本逐渐比不过他的分支
 - 特性 - 丧失不少原版特性
 
-总的来说，Paper 核心适合那些追究 *极端的* 稳定的人
+总的来说，Paper核心适合那些追究*极端的*稳定的人
 
-[点我](https://docs.papermc.io/paper) 查看 Paper 官方文档
+[Paper官方文档](https://docs.papermc.io/paper)
 
 **下载**：
 
@@ -66,25 +67,27 @@ import TabItem from '@theme/TabItem';
 - [原子云](https://res.nullatom.com/Minecraft/Server/Paper/)
 - [MCSL](https://sync.mcsl.com.cn/core/Paper)
 
+---
+
 </TabItem>
 <TabItem value="purpur" label="Purpur">
 
 **优势**：
 
-- 性能 - Purpur 的性能相比于 Paper 提升大约 10-20%，略有提升
-- 稳定 - Purpur 兼容 Paper 的全部插件，只要 Paper 能跑，Purpur 就可以跑
-- 特性 - Purpur 还原了 Minecraft 的部分特性，用来开生存服务器更加适合(当然生电还是得 Leaves)
+- 性能 - Purpur的性能相比于Paper*提升大约`10~20%`*
+- 稳定 - Purpur兼容Paper的全部插件，只要Paper能跑，Purpur就可以跑
+- 特性 - Purpur还原了Minecraft的部分特性，用来开生存服务器更加适合(当然生电还是得 Leaves)
 - 兼容 - 很多插件会以此核心为标准之一进行兼容
 - 功能 - 配置文件中有一些基础插件的功能，合理使用可以减少插件使用量。
 
 **劣势**：
 
 - 配置 - 配置文件比较繁杂
-- 支持 - 只有部分 mc 版本的构建
+- 支持 - 只支持部分游戏版本
 
-综上所述，目前 Purpur 是综合最优选择
+综上所述，目前Purpur是综合最优选择
 
-[点我](https://purpurmc.org/docs/purpur) 查看 Purpur 官方文档
+[Purpur官方文档](https://purpurmc.org/docs/purpur)
 
 **下载**：
 
@@ -93,24 +96,26 @@ import TabItem from '@theme/TabItem';
 - [FastMirror](https://www.fastmirror.net/#/download/Purpur)
 - [MCSL](https://sync.mcsl.com.cn/core/Purpur)
 
+---
+
 </TabItem>
 <TabItem value="leaves" label="Leaves">
 
 **优势**：
 
 - 特性 - 为生电而生，拥有专门的生电向特性支持
-- 兼容 - 支持 Paper 能使用的几乎所有插件
+- 兼容 - 支持Paper能使用的几乎所有插件。并且修复了Paper破坏的原版特性
 - 支持 - 国人开发的核心
 
 **劣势**：
 
-- 优化 - 优化不如 Purpur 和 Leaf
+- 优化 - 优化*不如Purpur和Leaf*
 
 专为生电而生的核心。
 
-leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca，投影，共享原理图，minihud，bbor，ommc，Xaero 小地图，Jade，appleskin。
+Leaves基本完全支持客户端生电Mod，包括但不限于Carpet，PCA，投影，共享原理图，MiniHUD，BBOR，OMMC，Xaero小地图，Jade，AppleSkin。
 
-[点我](https://docs.leavesmc.org/zh_Hans) 查看 Leaves 官方文档
+[Leaves官方文档](https://docs.leavesmc.org/zh_Hans)
 
 **下载**:
 
@@ -119,22 +124,24 @@ leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca�
 - [MCSL](https://sync.mcsl.com.cn/core/Leaves)
 - [Leaves 1.18.2](https://vip.123pan.cn/1821558579/6492009)
 
+---
+
 </TabItem>
 <TabItem value="Leaf" label="Leaf">
 
 **优势**：
 
-- 性能 - 比 purpur 好的多的性能（在实体方面甚至能达到 50% 以上的提升）
-- 支持 - 国人开发的核心
-  Paper = Purpur > Leaf /Leaves
+- 性能 - 比Purpur好的多的性能（在实体方面甚至能达到`50%`以上的提升）
+- 支持 - 国人开发的核心  
+  Paper = Purpur > Leaf / Leaves
 
 **劣势**：
 
 - 兼容 - 有极少插件不兼容(可向核心作者反馈)
 
-总的来说，相比 Purpur 会有更好的优化，极少不兼容的插件可以及时找作者反馈，所以非常推荐此核心
+总的来说，相比Purpur会有更好的优化，极少不兼容的插件可以及时找作者反馈，所以非常推荐此核心
 
-[点我](https://docs.leafmc.one/zh) 查看 Leaf 官方文档
+[Leaf官方文档](https://docs.leafmc.one/zh)
 
 **下载**：
 
@@ -150,9 +157,9 @@ leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca�
 
 :::tip
 
-目前仅有 1.8.8 版本的核心，而没有 1.8.9
+目前仅有`1.8.8`版本的核心，而没有`1.8.9`
 
-1.8.8 与 1.8.9 区别小到安装 [ViaVersion](/docs-java/process/plugin/other/Via/Via.md) 之后感觉不到区别
+`1.8.8`与`1.8.9`区别小到安装[ViaVersion](/docs-java/process/plugin/other/Via/Via.md)(跨版本插件)之后感觉不到区别
 
 :::
 
@@ -162,8 +169,8 @@ leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca�
 **优势**：
 
 - 性能 - 拥有较好的性能
-- 维护 - 可用于开 PVP 服务器，含大量 konckback 配置选项
-- 维护 - 专为 1.8 提供维护
+- 维护 - 可用于开PVP服务器，含大量KonckBack(击退距离)配置选项
+- 维护 - 专为`1.8`提供维护
 
 **劣势**：
 
@@ -173,6 +180,8 @@ leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca�
 
 - [官方](https://nightly.link/hpfxd/PandaSpigot/workflows/build/master/Server%20JAR.zip)
 - [McRes](https://vip.123pan.cn/1821558579/Lingyi/core/pandaspigot-116-mcres.cn.jar)
+
+---
 
 </TabItem>
 <TabItem value="sportpaper" label="SportPaper">
@@ -196,12 +205,12 @@ leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca�
 
 ### 1.12
 
-我们推荐 Beast
+我们推荐`Beast`
 
 **优势**：
 
-- 性能 - 1.12 相比高版本本身吃资源就少，此核心提供更多优化
-- 维护 - 专为 1.12 提供维护，修复错误和改进
+- 性能 - `1.12`相比高版本本身吃资源就少，此核心提供更多优化
+- 维护 - 专为`1.12`提供维护，修复错误和改进
 
 **劣势**：
 
@@ -211,6 +220,8 @@ leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca�
 
 - [官方](https://github.com/HomoMC/Beast)
 - [McRes](https://vip.123pan.cn/1821558579/6492155)
+
+---
 
 ## 不推荐
 
